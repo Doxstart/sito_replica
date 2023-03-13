@@ -1,28 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Merriweather+Sans:wght@800&display=swap');
 
+header{
+    background-color: #27272e;
+}
+
+body{
+    background-color: #16161d;
+}
+
+.container2{
+    max-width: 700px;
+    margin: auto;
+}
+
 .multi-column{
     Column-count: 2;
 }
 
 h1, p, a{
     text-align: center;
+    color: white;
+}
+
+.bottalign{
+    text-align: center;
 }
 
 h1, h2, h3{
     font-family: 'Merriweather Sans', sans-serif;
     font-size: xxx-large;
+    color: white;
 }
 
 p, details, ul, table{
     font-family: 'Manrope', sans-serif;
     font-size: large;
+    color: white;
 }
 
-a{
+small{
+    color: white;
+}
+
+.a1{
     font-size: small;
+    color: #faffc7;
 }
 
-hr {
+.a2{
+    font-size: large;
+    color: #faffc7;
+}
+
+.a3{
+    color: #faffc7;
+}
+
+hr{
     border: 0;
     border-top: 1px solid #CCC;
+  }
+
+  nav{
+    font-size: large;
   }
