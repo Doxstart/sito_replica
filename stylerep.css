@@ -1,5 +1,28 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Merriweather+Sans:wght@800&display=swap');
 
 .multi-column{
     Column-count: 2;
 }
+
+h1, p, a{
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: xxx-large;
+}
+
+p, details, ul, table{
+    font-family: 'Manrope', sans-serif;
+    font-size: large;
+}
+
+a{
+    font-size: small;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #CCC;
+  }
